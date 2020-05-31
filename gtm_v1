@@ -1,0 +1,7 @@
+from random import randint
+
+usNu = int(input ("Guess a number from 1 to 6: "))
+raNu = randint(1,6)
+
+print ("Great") if usNu == raNu else print ("Better luck next time")
+print ("The number was: " + str(raNu) + ".")
