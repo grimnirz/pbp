@@ -1,0 +1,15 @@
+import random
+usMove = str(input("¿piedra, papel o tijera?: "))
+boMove = ["piedra", "papel", "tijera"]
+boFina = random.choice(boMove)
+
+
+while boFina == usMove:
+    print ("Lo lograste")
+    print("La máquina seleccionó: " + boFina)
+    break
+else:
+    print ("Intentalo de nuevo.")
+    print("La máquina seleccionó: " + boFina)
+
+
